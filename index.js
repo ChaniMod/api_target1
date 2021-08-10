@@ -34,7 +34,7 @@ async function run() {
   }
 }
 
-app.get('/target_l4', function (req, res) {
+app.get('/', function (req, res) {
   // res.json({result: "OK", data:[1,2,3,4,5]})
   getAllTarget(req, res);
   // console.log('mod')
